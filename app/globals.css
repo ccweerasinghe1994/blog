@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,19 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+.r-text {
+	@apply sm:text-sm  md:text-lg  lg:text-xl  xl:text-2xl  2xl:text-3xl;
+}
+
+.r-h-ml {
+	@apply sm:ml-2 md:ml-4 lg:ml-8 xl:ml-10 2xl:ml-12;
+}
+.rh-mt {
+	@apply sm:mt-2 md:mt-4 lg:mt-5 xl:mt-6 2xl:mt-7;
+}
+
+.r-h-g {
+	@apply sm:gap-4 md:gap-6 lg:gap-8 xl:gap-10 2xl:gap-12;
 }
