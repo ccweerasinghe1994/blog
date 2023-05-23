@@ -27,14 +27,14 @@ body {
 } */
 
 .r-text {
-	@apply sm:text-sm  md:text-lg  lg:text-xl  xl:text-2xl  2xl:text-3xl;
+	@apply sm:text-sm  md:text-lg  lg:text-xl  xl:text-2xl;
 }
 
-.r-h-ml {
-	@apply sm:ml-2 md:ml-4 lg:ml-8 xl:ml-10 2xl:ml-12;
+.r-h-pl {
+	@apply sm:pl-2 md:pl-4 lg:pl-8 xl:pl-10 2xl:pl-12;
 }
-.rh-mt {
-	@apply sm:mt-2 md:mt-4 lg:mt-5 xl:mt-6 2xl:mt-7;
+.rh-pt {
+	@apply sm:py-3;
 }
 
 .r-h-g {
